@@ -27,10 +27,6 @@ export default function SearchForm() {
       router.push("/result");
       setLoading(false);
     }, 1000);
-    // if (data) {
-    //   setPhotoData(data);
-    //   router.push("/result");
-    // }
   };
   if (isLoading) return <p className={style.empty}>Loading...</p>;
   if (error) return <p className={style.empty}>에러 발생</p>;
