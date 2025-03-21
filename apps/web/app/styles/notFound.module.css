@@ -1,0 +1,15 @@
+.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 2rem;
+  font-weight: 700;
+  animation: fadeBlink 1.5s ease-in-out infinite;
+}
+
+.back_btn {
+  margin-top: 20px;
+}
