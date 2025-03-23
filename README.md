@@ -120,4 +120,4 @@ const [loading, setLoading] = useState(false);
   };
 ```
 
-- 비동기 요청 성공 시 zustand에 저장장
+- 비동기 요청 성공 시 zustand에 저장
